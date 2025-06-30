@@ -27,7 +27,7 @@ for i in range(num_elements):
     value = int(input(f"Enter element {i+1}: "))
     grades_list.append(value)
 
-avg_score = avg_score(grades_list)
-grade = compute_grade(avg_score)
-print(f"Average Score: {avg_score}")
+avg = avg_score(grades_list)
+grade = compute_grade(avg)
+print(f"Average Score: {avg}")
 print(f"Grade: {grade}") 
